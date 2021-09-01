@@ -1,6 +1,6 @@
-### 📝 TO DO LIST README
+### 📝 TO DO LIST
 
-1 - Add tasks to a list so that I can keep track of them
+- Add tasks to a list so that I can keep track of them
 
 ```js
 test("Submitting a new task adds it to the list", () => {
@@ -9,30 +9,29 @@ test("Submitting a new task adds it to the list", () => {
 });
 ```
 
-2- Check things off my list so that I can see what I’ve done
+- Check things off my list so that I can see what I’ve done
 
 ```js
 test('Checking an entry marks it as complete', () => {
-
      const obj = {
         item: 'Do the washing',
         checked: false,
         unqiueId:
     }
-
   1 - If check box is checked then object `checked` value is `true` else `false`
   2 - Check that item has `checked` === true
 });
 ```
 
-3 - Delete things from the list if I don’t need to do them anymore
+- Delete things from the list if I don’t need to do them anymore
 
 ```js
 test('Deleting an entry removes it from the list', () => {
-  // test goes here
     1 - check length of array is -1 compared to what it was before
 });
 ```
+
+- Example code
 
 ```js
 const list = [
